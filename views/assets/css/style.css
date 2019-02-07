@@ -1,0 +1,764 @@
+body {
+    letter-spacing: 0.1em;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    background: #F7F7F7;
+}
+
+.dark-hr {
+    border: 0.5px solid rgba(112, 112, 112, 1);
+}
+
+/* ===========================================
+    FORM
+    =========================================== */
+
+    .form-control-border {
+        border: 2px solid rgba(0, 0, 0, 0.3);
+        border-radius: 0;
+    }
+
+    .form-control-borderless {
+        border: none;
+        border-radius: 0;
+    }
+
+    .select-control {
+        -webkit-appearance: none;
+        background-color: white!important;
+        background: url(../images/grey-caret2.png) no-repeat;
+        background-position: right 5px top 45%;
+    }
+
+    textarea[name=project-comments] {
+        resize: none;
+        height: 204px;
+    }
+
+/* ===========================================
+    DROPDOWN MENU
+    =========================================== */
+
+    .dropdown-menu {
+        background: #090502;
+        font-size: 15px;
+        color: #E5BB67;
+        width: 280px;
+        border-radius: 0;
+        margin: 1.125rem 0 0;
+        position: absolute;
+        z-index: 999;
+        list-style: none;
+    }
+
+    #signin:hover {
+        color: #E5BB67;
+    }
+
+    #dropdown-signedin {
+        font-size: 18px;
+        width: 200px;
+    }
+
+    #dropdown-signin-form {
+        margin: 23px 20px;
+    }
+
+
+/* ===========================================
+    TEXT & FONT FORMATTING
+    =========================================== */
+
+    .bignoodle-font {
+        font-family: "Big Noodle Titling";
+    }
+
+    .lato-font {
+        font-family: 'Lato', sans-serif;
+    }
+
+    h1 {
+        font-family: "Big Noodle Titling";
+    }
+
+    h3 {
+        font-family: "Big Noodle Titling";
+    }
+
+    h5 {
+        font-family: "Big Noodle Titling";
+    }
+
+    .bold {
+        font-weight: 700;
+    }
+
+    .large-font {
+        font-size: 40px;
+    }
+
+    .mdm-font {
+        font-size: 18px;
+    }
+
+
+/* ===========================================
+    SIDEBAR
+    =========================================== */
+
+    #sidebar {
+        font-family: "Big Noodle Titling";
+        font-size: 22px;
+        padding: 5px 20px 5px 20px;
+        width: 250px;
+        left: -250px;
+        top: 0;
+        height: 100vh;
+        background: #2C2C2C;
+        border: 2px solid #090502;
+        transition: all 0.3s;
+        position: fixed;
+        z-index: 999;
+    }
+
+    #sidebar a {
+        color: #E5BB67;
+    }
+
+    #sidebar li {
+        margin: 5px 0;
+        padding: 5px 0;
+    }
+
+    #sidebar ul {
+        margin-top: 40px;
+    }
+
+    #sidebar.active {
+        left: 0;
+    }
+
+    #dismiss {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        font-size: 22px;
+        padding-right: 0;
+    }
+
+    .overlay {
+        display: none;
+    }
+
+    .overlay.active {
+        display: block;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 998;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .nav-divider {
+        border: 0.5px solid #707070;
+        margin: 0;
+    }
+
+/* ===========================================
+    HEADER
+    =========================================== */
+
+    #header {
+        background: #090502;
+        height: 56px;
+    }
+
+    .signin-join-wrapper {
+        position: absolute;
+        right: 43px;
+    }
+
+    .header-links {
+        font-size: 12px;
+        margin: 0 10px;
+    }
+
+    .header-links:hover {
+        color: #E5BB67;
+    }
+
+    #sidebarCollapse {
+        background: none;
+        position: absolute;
+        left: 43px;
+    }
+
+    #header-logo {
+        width: 138px;
+    }
+
+/* ===========================================
+    BANNER
+    =========================================== */
+
+    #banner {
+        background-image: url("/assets/images/Banner.png");
+        height: 250px;
+    }
+
+    #banner-overlay {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        font-family: "Big Noodle Titling";
+        color: #F7F7F7;
+        font-size: 18px;
+        display: flex;
+    }
+
+    #banner-container {
+        margin: auto;
+        text-align: center;
+    }
+
+    #banner-container img {
+        height: 150px;
+    }
+
+    #banner-container p {
+        margin-bottom: 0;
+    }
+
+
+
+
+/* ===========================================
+    BRAND COLOURS
+    =========================================== */
+
+    .yellow {
+        color: #E5BB67;
+    }
+
+    .dark-blue {
+        color: #187E9B;
+    }
+
+    .orange {
+        color: #FB542C;
+    }
+
+    .black {
+        color: #090502;
+    }
+
+    .white {
+        color: #F7F7F7;
+    }
+
+    .grey {
+        color: #7C7C7C;
+    }
+
+/* ===========================================
+    BUTTONS & LINKS
+    =========================================== */
+
+    .btn.focus, .btn:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+
+    #join-btn {
+        background: #E5BB67;
+        padding: 5px 30px;
+        border-radius: 4px;
+        font-weight: 700;
+        border-width: 0;
+    }
+
+    #join-btn:hover {
+        background: linear-gradient(to bottom, #E5BB67 0%, #B58931 100%);
+        text-decoration: none;
+        color: #090502;
+    }
+
+    .black-outline-btn {
+        border: 2px solid #090502;
+        border-radius: 4px;
+        color: #090502;
+        padding: 5px 50px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .black-outline-btn:hover {
+        text-decoration: none;
+        background: #090502;
+        color: #E5BB67;
+    }
+
+    .black-fill-btn {
+        background: #090502;
+        color: #E5BB67;
+        font-family: "Big Noodle Titling";
+        font-size: 20px;
+        border-radius: 4px;
+        padding: 2px 70px;
+    }
+
+    .black-fill-btn:hover {
+        background: #E5BB67;
+        color: #090502;
+        cursor: pointer;
+    }
+
+    .black-fill-btn-100w {
+        background: #090502;
+        color: #E5BB67;
+        font-family: "Big Noodle Titling";
+        font-size: 20px;
+        border-radius: 4px;
+        padding: 2px 70px;
+        width: 100%;
+    }
+
+    .black-fill-btn-100w:hover {
+        background: #E5BB67;
+        color: #090502;
+        cursor: pointer;
+    }
+
+    .orange-fill-btn {
+        background: #DE6540;
+        color: #090502;
+        font-family: "Big Noodle Titling";
+        font-size: 20px;
+        border-radius: 0;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        width: 100%;
+        border-width: 0;
+    }
+
+    .orange-fill-btn:hover {
+        background: linear-gradient(to bottom, #DE6540 0%, #AA3C1A 100%);
+    }
+
+    .yellow-link {
+        text-decoration: underline;
+    }
+
+    .yellow-link:hover {
+        color: #35ACBC;
+    }
+
+    #change-password-link {
+        color: #090502;
+    }
+
+    #change-password-link:hover {
+        color: #090502;
+        text-decoration: none;
+    }
+
+    .trash-edit-link {
+        color: white!important;
+        opacity: 0.7!important;
+    }
+
+    .trash-edit-link:hover {
+        color: #E5BB67!important;
+        opacity: 1!important;
+    }
+
+    .signin-like:hover {
+        color: #DE6540;
+    }
+
+/* ===========================================
+    SEARCH BAR
+    =========================================== */
+
+    .search-container {
+        position: absolute;
+        right: 15px;
+        bottom: -1px!important;
+    }
+
+    .search-container button {
+        float: right;
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 0;
+        margin-left: 0;
+        background: #090502;
+        font-size: 17px;
+        color: #E5BB67;
+        border: none;
+        cursor: pointer;
+    }
+
+    .search-container button:hover {
+        background: #E5BB67;
+        color: #090502;
+    }
+
+    .search-container input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: solid;
+        border-width: 2px;
+        width: 300px;
+        height: 37px;
+        border-color: #090502;
+    }
+
+    .search-form-group {
+        margin-bottom: 0;
+    }
+
+    .post-search-wrapper {
+        position: relative;
+        padding: 100px 15px 0 15px;
+    }
+
+/* ===========================================
+    POSTING PAGE
+    =========================================== */
+
+    #img-preview {
+        max-width: 400px;
+        max-height: 400px;
+
+    }
+
+    #project-preview-wrapper {
+        height: 500px;
+    }
+
+
+/* ===========================================
+    POSTS
+    =========================================== */
+    .project-post-wrapper {
+        max-width: 255px;
+        width: 100%;
+        height: 301px;
+        position: relative;
+    }
+
+    .project-img {
+        object-fit: cover;
+        height: inherit;
+        width: inherit;
+    }
+
+    .project-hover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(rgba(30, 30, 30, 0.2), rgba(30, 30, 30, 0.8));
+        z-index: 1;
+    }
+
+    .trash-edit-wrapper {
+        color: #F7F7F7;
+        width: 100%;
+        font-size: 20px;
+        float: right;
+        width: 25px;
+        margin: 10px 10px;
+        z-index: 2;
+    }
+
+    .delete-edit-links-wrapper {
+        float: right;
+    }
+
+    .project-overlay-link {
+        height: 100%;
+        width: 100%;
+    }
+
+    .title-username-wrapper {
+        bottom: 0;
+        position: absolute;
+        margin: 10px 10px;
+    }
+
+    .small-profilepic-wrapper {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sm-profilepic {
+        object-fit: cover;
+        height: inherit;
+        width: inherit;
+        border-radius: 20px;
+    }
+
+    .pr-like-counter-wrapper {
+        float: right;
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 22px;
+        margin-right: 10px;
+    }
+
+/* ===========================================
+    VIEW FULL POST
+    =========================================== */
+
+    .modal-content {
+        background: none!important;
+        border: none;
+    }
+
+
+    .modal-dialog {
+        max-width: 75vw!important;
+    }
+
+    .modal-header {
+        display: block;
+        border-bottom: none;
+        padding: 0;
+    }
+
+    .close {
+        position: absolute;
+        padding: 5px 0 0 0;
+        margin: 0;
+        right: 0;
+        font-size: 35px;
+        color: #fff;
+        text-shadow: none;
+    }
+
+    .close:hover {
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .project-view-img-wrapper {
+        max-width: 554px;
+        max-height: 80vh;
+        display: flex;
+        background: #000000;
+        padding: 0;
+    }
+
+    .project-view-img-wrapper img {
+        max-width: 100%;
+        max-height: inherit;
+        margin: auto;
+    }
+
+    .project-view-info-wrapper {
+        padding: 15px 25px;
+        background: white;
+    }
+
+    .profilepic-username-wrapper {
+        margin-top: 10px;
+    }
+
+    .md-profilepic-wrapper {
+        width: 60px;
+        height: 60px;
+        margin-right: 5px;
+    }
+
+    .md-profilepic {
+        object-fit: cover;
+        height: inherit;
+        width: inherit;
+        border-radius: 30px;
+    }
+
+/* ===========================================
+    SIGNUP PAGE
+    =========================================== */
+
+    #symbol-logo {
+        width: 333px;
+        margin-left: -43px;
+    }
+
+    #signup-h1 {
+        font-size: 60px;
+    }
+
+    #signup-h2 {
+        font-size: 40px;
+    }
+
+    .full-vh {
+        height: 100vh;
+    }
+
+    #signup-wrapper {
+        background: #2C2C2C;
+        padding: 50px 75px;
+        border-radius: 8px;
+    }
+
+    #signup-wrapper-responsive {
+        background: #2C2C2C;
+        padding: 50px 75px;
+        border-radius: 8px;
+        display: none;
+    }
+
+
+    .error-message {
+        background: red;
+        padding-left: 5px;
+        color: white;
+    }
+
+/* ===========================================
+    PROFILE PAGE
+    =========================================== */
+
+    #user-info-wrapper {
+        background: #E5E5E5;
+        border: 1px solid rgba(152,152,152,1);
+        border-radius: 8px;
+        padding: 50px 15px;
+    }
+
+    #lg-profilepic-wrapper {
+        width: 100%;
+        max-width: 150px;
+        height: 150px;
+    }
+
+    #lg-profilepic {
+        object-fit: cover;
+        height: inherit;
+        width: inherit;
+        border-radius: 75px;
+    }
+
+/* ===========================================
+    EDIT PROFILE PAGE
+    =========================================== */
+
+    textarea[name=bio] {
+        resize: none;
+        height: 125px;
+    }
+
+
+/* ===========================================
+    UPLOAD IMG BUTTON
+    =========================================== */
+
+    .inputfile {
+    	width: 0.1px;
+    	height: 0.1px;
+    	opacity: 0;
+    	overflow: hidden;
+    	position: absolute;
+    	z-index: -1;
+    }
+
+    .inputfile + label {
+        font-size: 15px;
+        font-weight: 4;
+        color: #EA5F44;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .inputfile:focus + label, .inputfile + label:hover {
+        text-decoration: underline;
+    }
+
+    .inputfile:focus + label {
+    	outline: 1px dotted #000;
+    	outline: -webkit-focus-ring-color auto 5px;
+    }
+
+    .inputfile + label * {
+	    pointer-events: none;
+    }
+
+
+@media (max-width: 1000px){
+    #logo-column {
+        display: none;
+    }
+
+    #form-column {
+        display: none;
+    }
+
+    #signup-wrapper-responsive {
+        display: block;
+    }
+}
+
+@media (max-width: 991px){
+    #img-preview {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .add-post-btn-wrapper {
+        display: none;
+    }
+
+    .project-view-info-wrapper {
+        max-width: 554px;
+    }
+
+
+}
+
+@media (max-width: 700px){
+    .signin-join-wrapper {
+        display: none;
+    }
+
+    #sidebarCollapse {
+        left: 0;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 575px){
+    .project-post-wrapper {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 367px){
+    .search-container input[type=text]{
+        width:250px;
+    }
+}
+
+@media (max-width: 327px){
+    #img-preview {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    #project-preview-wrapper {
+        height: 300px;
+    }
+}

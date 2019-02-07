@@ -1,0 +1,22 @@
+[04-Feb-2019 15:54:56 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_insert_id() in /home/fanswagjoannecar/public_html/models/post.php:17
+Stack trace:
+#0 /home/fanswagjoannecar/public_html/views/posts/add.php(7): Post->add()
+#1 {main}
+  thrown in /home/fanswagjoannecar/public_html/models/post.php on line 17
+[04-Feb-2019 15:55:32 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_insert_id() in /home/fanswagjoannecar/public_html/models/post.php:17
+Stack trace:
+#0 /home/fanswagjoannecar/public_html/views/posts/add.php(7): Post->add()
+#1 {main}
+  thrown in /home/fanswagjoannecar/public_html/models/post.php on line 17
+[04-Feb-2019 15:55:37 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_insert_id() in /home/fanswagjoannecar/public_html/models/post.php:17
+Stack trace:
+#0 /home/fanswagjoannecar/public_html/views/posts/add.php(7): Post->add()
+#1 {main}
+  thrown in /home/fanswagjoannecar/public_html/models/post.php on line 17
+[04-Feb-2019 16:06:43 America/Vancouver] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/fanswagjoannecar/public_html/models/post.php on line 17
+[04-Feb-2019 16:08:41 America/Vancouver] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/fanswagjoannecar/public_html/models/post.php on line 17
+[04-Feb-2019 16:09:10 America/Vancouver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/fanswagjoannecar/public_html/models/post.php on line 17
+[05-Feb-2019 12:40:42 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined method Post::get_by_id() in /home/fanswagjoannecar/public_html/views/posts/edit.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fanswagjoannecar/public_html/views/posts/edit.php on line 12

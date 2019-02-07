@@ -1,0 +1,50 @@
+[05-Feb-2019 10:02:10 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/index.php on line 62
+[05-Feb-2019 10:03:18 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/index.php on line 62
+[06-Feb-2019 14:15:22 America/Vancouver] PHP Warning:  Missing argument 1 for User::get_by_id(), called in /home/fanswagjoannecar/public_html/core/init.php on line 9 and defined in /home/fanswagjoannecar/public_html/models/user.php on line 15
+[07-Feb-2019 08:57:29 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/index.php on line 67
+[07-Feb-2019 08:58:44 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/index.php on line 67
+[07-Feb-2019 09:02:16 America/Vancouver] PHP Warning:  mysqli::query(): Empty query in /home/fanswagjoannecar/public_html/core/db.php on line 50
+[07-Feb-2019 09:16:55 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/index.php on line 67
+[07-Feb-2019 09:18:40 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/index.php on line 67
+[07-Feb-2019 09:20:42 America/Vancouver] PHP Warning:  Attempt to assign property of non-object in /home/fanswagjoannecar/public_html/models/post.php on line 53
+[07-Feb-2019 09:22:17 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/fanswagjoannecar/public_html/models/post.php:55
+Stack trace:
+#0 /home/fanswagjoannecar/public_html/views/index.php(65): Post->get_all()
+#1 {main}
+  thrown in /home/fanswagjoannecar/public_html/models/post.php on line 55
+[07-Feb-2019 18:50:59 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:50:59 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:51:00 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:51:00 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:51:00 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:51:00 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:51:01 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:51:01 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:51:01 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:51:01 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:51:02 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:51:02 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:54:55 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:54:55 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:54:56 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:54:56 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:54:56 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:54:56 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:54:56 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:54:56 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:54:57 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:54:57 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:54:57 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 18:54:57 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 19:01:20 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 19:01:20 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 19:01:20 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 19:01:20 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 19:01:20 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 19:01:20 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 19:01:20 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 19:01:20 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 19:01:20 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 19:01:20 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 19:01:21 UTC] PHP Warning:  require_once(../../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/search.php on line 1
+[07-Feb-2019 19:01:21 UTC] PHP Fatal error:  require_once(): Failed opening required '../../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/search.php on line 1

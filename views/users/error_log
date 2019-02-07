@@ -1,0 +1,40 @@
+[01-Feb-2019 17:37:07 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/users/signin.php on line 1
+[01-Feb-2019 17:37:07 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/users/signin.php on line 1
+[01-Feb-2019 17:37:57 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/users/signin.php on line 1
+[01-Feb-2019 17:37:57 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/users/signin.php on line 1
+[01-Feb-2019 09:38:53 America/Vancouver] PHP Warning:  require_once(../elements/footer.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/users/signin.php on line 22
+[01-Feb-2019 09:38:53 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '../elements/footer.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/users/signin.php on line 22
+[01-Feb-2019 19:20:30 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/fanswagjoannecar/public_html/views/users/post.php on line 1
+[01-Feb-2019 19:20:30 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/fanswagjoannecar/public_html/views/users/post.php on line 1
+[03-Feb-2019 21:52:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fanswagjoannecar/public_html/views/users/edit.php on line 175
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
+[03-Feb-2019 13:53:30 America/Vancouver] PHP Warning:  Invalid argument supplied for foreach() in /home/fanswagjoannecar/public_html/views/users/edit.php on line 127
